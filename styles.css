@@ -1,0 +1,66 @@
+/*CARD, TITLE AND IMAGE*/
+
+/* A margin of 10px round all edges is applied to provide space arund the border when the card is rendered in the browsert */
+/* The box shadow is set to a lighter grey to more closely represent the design prototype */
+
+.card {
+  width: 300px;
+  padding: 0 15px 15px 15px;
+  margin: 10px 10px 10px 10px;
+  border: 1px solid lightgrey;
+  box-shadow: 8px 8px 2px rgb(232,232,232);
+}
+
+h3 {
+  font-size: 20pt;
+}
+
+/* the size of the image is constrained to 300x200 using the code below */
+/* a 1pt border is applied to align the content border with the card border */
+/* image downloaded from the free to use photohraph community website unsplash.com */
+
+img {
+  width: 300px;
+  height: 200px;
+  border: 1px solid lightgrey;
+}
+
+/*CONTENT/
+
+/* The left and right margins within content are set to zero as there is already padding around the card box */
+
+.content {
+  text-align: left;
+  width: 280px;
+  padding: 0 10px 5px 10px;
+  margin: 10px 0 1px 0;
+  border: 1px solid lightgrey;
+
+}
+
+/* The class "fact" is defined here instead of using an ID attribute in the html, as per the style guidlines */
+
+.fact {
+    font-style: italic;
+  }
+
+/* The font georgia is used as the closest approximation to the design prototype */
+/* An 11pt font was initialy tested in Chrome but this was changed to 10.5pt following testing in Safari after the 11pt font wrapped text to the next line */
+
+html {
+  font: 10.5pt georgia;
+}
+
+/* The font size of the header is set to 20 as the cloest approximation to the design prototype */
+
+span {
+  font-weight: bold;
+}
+
+/* The margin and padding are set to zero below to remove indentation, following the removal of list bullets */
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
