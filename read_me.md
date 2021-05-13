@@ -18,7 +18,7 @@ The code was written to align with the [Udacity style guidlines](https://udacity
 
 ## Loading the web page 
 
-Clicking on this [link](www.github.com/richardieuanowen/trading_card.html) will load the page in any browser.
+Clicking on this [link](https://github.com/richardieuanowen/trading_card) will load the page in any browser.
 
 ## Browser testing 
 
